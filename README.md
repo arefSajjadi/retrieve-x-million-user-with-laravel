@@ -88,7 +88,7 @@
 * Create policies for authorized user just work for own jobs
 * Create middleware for allow authorized user to access to it action.
 
-#recommendations
+# recommendations
 * if you want just `is_completed` jobs, we can use `laravel Global Scopes`
     ```php
     namespace App\Scopes;
