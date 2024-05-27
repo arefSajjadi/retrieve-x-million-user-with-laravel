@@ -58,7 +58,7 @@
             ->send(jobFechted::getInstance('Fetched job id: ' . $job->id));
         });
     ```
-  ###### sounrce: https://laravel.com/docs/8.x/collections#lazy-collection-methods
+  ###### source: https://laravel.com/docs/8.x/collections#lazy-collection-methods
 * To get rid of this memory usage we can use the `cursor()` method. This method will allow you to iterate through your
   dataset records and will only execute a single query, Then we can use `lazy collection`:
 
